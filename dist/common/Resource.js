@@ -23,7 +23,7 @@ objLoader.setPath(MODEL_PATH);
 
 // json 模型加载器
 const objectLoader = new THREE.ObjectLoader();
-objectLoader.setTexturePath(MODEL_PATH);
+objectLoader.setResourcePath(MODEL_PATH);
 
 // prefab 数据加载器
 const prefLoader = new THREE.FileLoader();
